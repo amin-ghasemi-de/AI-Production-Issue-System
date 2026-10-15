@@ -33,7 +33,43 @@ Manufacturing teams need a consistent way to capture equipment and process issue
 - **Role-based workflows:** Engineer-protected report listing, report details, and status updates (`OPEN`, `UNDER_REVIEW`, `RESOLVED`).
 - **Cloud-backed storage:** Persist reports in PostgreSQL, with a deployed API component in Azure Container Apps.
 - **Power BI reporting:** Explore production issue counts, severity distribution, downtime, resolution rate, status, and AI assessment fields.
+## Application Screenshots
 
+The following screenshots demonstrate the main features of the AI Production Issue System.
+
+### AI-Powered Production Issue Analysis
+
+![AI Production Issue Analysis](docs/screenshots/03-ai-analysis.png)
+
+### Reports & Issue Management
+
+![Production Reports](docs/screenshots/04-reports.png)
+
+### Report Details
+
+![Report Details](docs/screenshots/05-report-detail.png)
+
+### User Authentication
+
+![Login Interface](docs/screenshots/02-login.png)
+
+### Multilingual Interface
+
+![Language Selection](docs/screenshots/01-language.png)
+
+> Screenshots contain demonstration data. The application is not currently offered as a public demo.
+## Power BI Analytics Dashboard
+
+The project includes a Power BI dashboard for
+visualizing production performance and AI-generated insights.
+
+### Production Overview
+
+![Power BI Production Overview](docs/screenshots/06-powerbi-overview.JPG)
+
+### AI Insights
+
+![Power BI AI Insights](docs/screenshots/07-powerbi-ai-insights.JPG)
 ## Architecture
 
 ```mermaid
