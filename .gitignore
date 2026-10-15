@@ -2,3 +2,8 @@
 __pycache__/
 *.pyc
 .idea/
+production_reports.db
+*.sqbpro
+.env
+.venv-rag/
+chroma_db/

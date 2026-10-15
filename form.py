@@ -1,86 +1,12 @@
 import json
+from ai_analyzer import analyze_with_ai
 import tkinter as tk
 from tkinter import messagebox, ttk
 from datetime import datetime
-import ollama
 from PIL import Image, ImageTk
 import sqlite3
 
 
-def analyze_with_ai(
-        problem_type,
-        problem_description,
-        downtime,
-        temperature,
-        pressure,
-        cycle_time,
-        comment
-):
-    response = ollama.chat(
-        model="llama3.2:3b",
-        messages=[
-            {
-                "role": "system",
-                "content": """
-You are an industrial maintenance assistant specialized
-in injection molding machines.
-
-Analyze the complete production issue using both
-process data and the operator comment.
-
-recommended_action must be a short practical next step for the operator or maintenance technician.
-confidence must indicate how strongly the provided data supports the diagnosis.
-
-Use only:
-LOW
-MEDIUM
-HIGH
-
-HIGH = the process data and operator comment strongly support the diagnosis.
-MEDIUM = the diagnosis is plausible but other causes are possible.
-LOW = there is insufficient, vague, or conflicting information. 
-Return ONLY valid JSON.
-
-Use one category:
-Mechanical
-Electrical
-Process
-Quality
-Tooling
-Unknown
-
-Use one severity:
-LOW
-MEDIUM
-HIGH
-
-Return:
-category
-severity
-possible_cause
-recommended_action
-confidence
-"""
-            },
-            {
-                "role": "user",
-                "content": f"""
-Problem Type: {problem_type}
-Problem Description: {problem_description}
-Downtime: {downtime} minutes
-Temperature: {temperature} °C
-Injection Pressure: {pressure} bar
-Cycle Time: {cycle_time} seconds
-Operator Comment: {comment}
-
-Analyze all information together.
-"""
-            }
-        ],
-        format="json"
-    )
-
-    return json.loads(response["message"]["content"])
 def update_report_status():
     report_id = status_report_id_entry.get().strip()
     new_status = status_var.get()

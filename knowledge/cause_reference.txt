@@ -1,0 +1,101 @@
+DOCUMENT_TYPE: cause
+TITLE: Possible Cause Reference for Injection Molding RAG
+PURPOSE: Return only possible causes that are explicitly supported by documented troubleshooting guidance.
+IMPORTANT: These are possible causes, not confirmed diagnoses. Injection molding is material-, tool-, machine-, and process-dependent. Do not infer a cause from a numeric temperature, pressure, or cycle-time value unless the correct process window is documented.
+
+CAUSE C-01 — Short shot or incomplete fill
+Supported possible causes include insufficient shot size, blocked or insufficient venting, insufficient injection pressure, injection speed that is too low, melt temperature that is too low for the material/process window, high material viscosity, or flow restrictions involving the gate or runner.
+Evidence basis: Avient and Solvay injection-molding troubleshooting guides.
+
+CAUSE C-02 — Short shot with burn marks
+A supported possible cause is trapped gas or poor venting.
+Evidence basis: Avient troubleshooting guidance links short parts with burn marks to gas trapping or poor venting.
+
+CAUSE C-03 — Flash
+Supported possible causes include excessive injection pressure, injection speed that is too high, too much material, inadequate clamp pressure or clamp capacity, poor mold fit, mold damage or misalignment, or venting/parting-line issues.
+Evidence basis: Avient, Solvay, RTP, and LANXESS troubleshooting guidance.
+
+CAUSE C-04 — Burn marks
+Supported possible causes include clogged vents, insufficient venting, trapped gas or dieseling, and in some material/process cases an excessive fill rate.
+Evidence basis: Solvay and Avient troubleshooting guidance.
+
+CAUSE C-05 — Voids or sink marks
+Supported possible causes include insufficient molten material, inadequate pack or hold pressure, inadequate pack or hold time, shrinkage, gate or runner restrictions, wet material in applicable resin systems, or melt/mold conditions that are too cold for the documented process.
+Evidence basis: Avient and Solvay troubleshooting guidance.
+
+CAUSE C-06 — Silver streaking or splay
+Supported possible causes include moisture, contamination, and excessive shear in the material.
+Evidence basis: Avient troubleshooting guidance.
+
+CAUSE C-07 — Warpage
+Supported possible causes include anisotropic or uneven shrinkage, high molded-in stress, unbalanced flow, gate-location effects, and unsuitable packing or temperature conditions.
+Evidence basis: Avient and RTP troubleshooting guidance.
+
+CAUSE C-08 — Off-color part or abnormal odor
+Supported possible causes include contamination or material degradation. Material degradation can be associated with excessive process temperature, excessive residence time, or unsuitable regrind conditions.
+Evidence basis: Avient troubleshooting guidance.
+
+CAUSE C-09 — Non-uniform color
+Supported possible causes include poor color-concentrate mixing or dispersion, contamination, and unsuitable barrel-temperature, back-pressure, or screw-speed conditions.
+Evidence basis: Avient troubleshooting guidance.
+
+CAUSE C-10 — Part sticking or ejector-pin marks
+Supported possible causes include insufficient ejection force, insufficient cooling before ejection, a part that is still too soft at ejection, unsuitable mold/process temperature, excessive pack/hold pressure, or insufficient draft/ejection design.
+Evidence basis: Avient troubleshooting guidance.
+
+CAUSE C-11 — Progressively shorter shots
+Supported possible causes include excessive material residence time, barrel temperature that is too high for the material, or shot size that is too small for the machine/process combination.
+Evidence basis: Solvay Torlon PAI Quick Molding Guide.
+
+CAUSE C-12 — Nozzle drool
+Supported possible causes include high melt temperature, moisture in the resin that generates pressure in the barrel, unsuitable processing conditions, or nozzle configuration.
+Evidence basis: LANXESS Durethan injection-molding guide.
+
+CAUSE C-13 — High injection pressure as a reported condition
+High injection pressure can be associated with flash in documented troubleshooting guidance.
+Do not label pressure as "high" from the numeric value alone. The report or a material/machine process window must establish that the pressure is high.
+
+CAUSE C-14 — Low injection pressure as a reported condition
+Insufficient injection pressure can contribute to short shots or incomplete fill.
+Do not label pressure as "low" from the numeric value alone. The report or a documented process window must establish that it is insufficient.
+
+CAUSE C-15 — Excessive melt or barrel temperature as a reported condition
+When a material-specific process window establishes that melt or barrel temperature is excessive, documented consequences can include material degradation, drool, flash in some processes, or progressively shorter shots.
+Do not infer "excessive temperature" from a raw temperature number without material and parameter context.
+
+CAUSE C-16 — Cycle too short
+A cycle that is documented as too short can contribute to inadequate cooling or post-blowing, and a part may remain too soft for proper ejection.
+Evidence basis: Solvay troubleshooting guidance and Avient cooling/ejection guidance.
+
+CAUSE C-17 — Unexpectedly long cycle time
+A long cycle may be caused or amplified by inefficient mold cooling. Documented contributors include insufficient cooling capacity, difficult cooling-channel placement for complex geometry, inappropriate cooling-system design, corrosion, or scale buildup in cooling channels.
+Evidence basis: BASF technical information on estimating cooling times in injection molding.
+
+CAUSE C-18 — Cooling-related process problem
+Cooling time depends on melt temperature, part wall thickness, cooling efficiency, and material properties. Inadequate mold cooling can increase cycle time and can affect ejection behavior.
+Evidence basis: BASF cooling-time technical guidance and Avient mold-processing guidance.
+
+CAUSE C-19 — Dimensional out-of-specification parts
+A supported possible cause is loss of control of shrinkage. Relevant process factors to check include hold pressure, melt temperature, mold temperature, and cushion.
+Evidence basis: Avient quality-control troubleshooting guidance.
+
+CAUSE C-20 — Do not invent a cause from unsupported operator comments
+An operator comment is evidence only when it describes an observable condition or matches documented process behavior. If a comment claims a cause that is not supported by the retrieved documentation or report data, return that the cause cannot be validated rather than repeating it as fact.
+
+CAUSE C-21 — Multiple possible causes are allowed
+When the documentation lists several plausible causes for the same symptom, return them as possible causes without selecting one as confirmed unless the report contains additional discriminating evidence.
+
+SOURCE NOTE — Avient
+Avient, Injection Molding: Troubleshooting, 2025, plus Avient injection-molding processing pages.
+
+SOURCE NOTE — Solvay
+Solvay Specialty Polymers, Torlon PAI Quick Molding Guide, troubleshooting table.
+
+SOURCE NOTE — BASF
+BASF, Estimating Cooling Times in Injection Molding, technical information.
+
+SOURCE NOTE — LANXESS
+LANXESS, Durethan PA Injection Molding Guide, troubleshooting section.
+
+SOURCE NOTE — RTP Company
+RTP Company, Injection Molding Troubleshooting Guide.

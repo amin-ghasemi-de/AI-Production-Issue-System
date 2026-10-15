@@ -1,0 +1,72 @@
+DOCUMENT_TYPE: severity
+TITLE: Production Issue Severity Rules for Injection Molding RAG
+PURPOSE: Ground LOW, MEDIUM, HIGH, or null severity in documented evidence.
+IMPORTANT: This is a project-specific PoC classification policy derived from machinery-safety and injection-molding troubleshooting guidance. It is NOT a universal industry severity standard. Factory-approved risk criteria, machine manuals, material data sheets, and process windows must override this file when available.
+
+RULE S-01 — Safety override to HIGH
+If the report describes a credible risk of crushing, amputation, electric shock, burns from hot plastic or hot machine surfaces, high-pressure fluid spray, fire, or exposure to hazardous machine energy, classify severity as HIGH.
+Evidence basis: OSHA identifies crushing, amputation, electric shock, burns, high-temperature exposure, and high-pressure hose or fitting failures as serious hazards around injection molding machinery.
+
+RULE S-02 — Guard or interlock bypass is HIGH
+If the report states that a guard, operator gate, interlock, or safety device is missing, bypassed, defeated, or intentionally overridden while the machine can operate, classify severity as HIGH.
+Evidence basis: OSHA injection-molding guidance warns not to operate with missing or inoperable guards or interlocks and not to bypass safety interlocks.
+
+RULE S-03 — Servicing with hazardous energy exposure is HIGH
+If maintenance, cleaning, unjamming, mold access, inspection, adjustment, or servicing requires removal or bypass of a guard or entry into a danger zone while hazardous energy could be released, classify severity as HIGH.
+Evidence basis: OSHA 29 CFR 1910.147 guidance requires lockout/tagout when servicing exposes workers to unexpected energization, startup, or hazardous-energy release.
+
+RULE S-04 — High-pressure hose or fitting failure is HIGH
+If the report mentions a damaged, punctured, frayed, leaking, or failed hydraulic hose or fitting that can spray hot oil or another substance at high pressure, classify severity as HIGH.
+Evidence basis: OSHA states that damaged hoses and fittings can spray hot oil or other substances at high pressure and can create injury and fire hazards.
+
+RULE S-05 — Thermal contact or molten-plastic exposure is HIGH when personnel exposure is credible
+If the report describes splatter of molten plastic, contact with a heated barrel, hot nozzle, or another thermal hazard with credible worker exposure, classify severity as HIGH.
+Evidence basis: OSHA identifies burns from hot barrels and splatter of hot plastic, gases, or vapors as injection-molding hazards.
+
+RULE S-06 — Confirmed production defect without documented safety hazard is MEDIUM under this project policy
+If a report clearly describes a repeatable production-quality defect such as short shots, flash, burn marks, voids, sink marks, warpage, splay, off-color parts, dimensional out-of-specification parts, or repeated sticking/ejection problems, and no safety-critical condition is documented, classify severity as MEDIUM.
+Policy rationale: Manufacturer troubleshooting guides treat these as process or quality-control problems requiring corrective intervention. This MEDIUM mapping is a project policy for the PoC, not a manufacturer or ISO severity rating.
+
+RULE S-07 — Persistent or worsening process instability is MEDIUM under this project policy
+If the report states that an issue is recurring, progressively worsening, or repeatedly producing nonconforming parts, and no HIGH safety rule applies, classify severity as MEDIUM.
+Evidence basis: Avient distinguishes quality-control issues as cases where previously successful production becomes out of specification because something in the process changed. Solvay documents progressively shorter shots as a troubleshooting condition requiring correction.
+
+RULE S-08 — Minor isolated cosmetic deviation may be LOW only when functional and safety impact are explicitly absent
+If the report explicitly describes a minor, isolated cosmetic variation and also states that the part remains functionally acceptable and no safety hazard is present, classify severity as LOW.
+Examples may include limited appearance variation such as gloss variation or minor surface appearance issues when the report explicitly confirms no functional impact.
+Policy note: Do not infer LOW merely because a defect sounds cosmetic; the report must explicitly support the lack of functional and safety impact.
+
+RULE S-09 — Numeric process values alone do not determine severity
+Do not classify severity from temperature, pressure, cycle time, or downtime numbers alone unless a retrieved machine manual, material processing guide, approved process window, or factory rule explicitly defines a limit or acceptable range for the same parameter.
+Examples: Temperature 95, pressure 120, or cycle time 48 must not be labeled LOW, MEDIUM, or HIGH without the correct unit, parameter meaning, material/machine context, and documented limit.
+
+RULE S-10 — Material process windows are material-specific
+Do not assume that a temperature, pressure, injection time, cooling time, or cycle time that is acceptable for one resin is valid for another resin.
+Evidence basis: Avient recommends determining the material process window before troubleshooting. BASF cycle-time guidance depends on material type, melt temperature, mold temperature, wall thickness, cooling time, and other process factors.
+
+RULE S-11 — Downtime does not determine severity without a factory rule
+Do not map downtime minutes directly to LOW, MEDIUM, or HIGH unless the factory provides explicit downtime thresholds or escalation criteria.
+Reason: The researched sources support risk assessment and process troubleshooting but do not establish a universal downtime-to-severity mapping for injection molding.
+
+RULE S-12 — Insufficient evidence returns null
+Return severity as null when the report contains only vague statements, unsupported numeric values, or insufficient context to apply one of the documented rules.
+Do not guess severity.
+
+RULE S-13 — Safety evidence takes precedence over quality evidence
+If both a quality defect and a credible safety hazard are present, apply the safety rule first. A documented safety-critical condition must not be downgraded because the report also contains a routine quality defect.
+Basis: ISO 12100 describes machinery risk assessment as hazard identification, risk estimation/evaluation, and risk reduction. OSHA documents serious injection-molding hazards including amputation, crushing, electric shock, burns, and hazardous-energy exposure.
+
+SOURCE NOTE — ISO 12100:2010
+ISO 12100:2010, Safety of machinery — General principles for design — Risk assessment and risk reduction. The standard describes hazard identification, risk estimation and evaluation, and risk reduction for machinery.
+
+SOURCE NOTE — OSHA Injection Molding Machine Guarding
+Occupational Safety and Health Administration (OSHA), Machine Guarding eTool — Plastics Machinery — Horizontal Injection Molding Machines.
+
+SOURCE NOTE — OSHA Lockout/Tagout
+Occupational Safety and Health Administration (OSHA), Control of Hazardous Energy / Lockout-Tagout guidance.
+
+SOURCE NOTE — HSE Machinery Risk Assessment
+UK Health and Safety Executive (HSE), machinery risk assessment guidance.
+
+SOURCE NOTE — Avient Injection Molding Troubleshooting
+Avient, Injection Molding: Troubleshooting, updated 2025.
