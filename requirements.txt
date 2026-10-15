@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+groq
+python-dotenv
+psycopg[binary]
+pwdlib[argon2]
+python-jose[cryptography]
+chromadb
+sentence-transformers

@@ -1,0 +1,13 @@
+Machine 4 Maintenance Manual
+
+If injection pressure drops below the normal operating range,
+check the hydraulic system for leakage.
+
+High temperature may indicate insufficient cooling,
+blocked cooling channels, or cooling pump failure.
+
+If cycle time suddenly increases, inspect the mold,
+cooling system, and material flow.
+
+Before performing maintenance, stop the machine
+and follow the factory safety procedure.

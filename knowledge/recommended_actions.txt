@@ -1,0 +1,150 @@
+DOCUMENT_TYPE: action
+TITLE: Recommended Actions for Injection Molding RAG
+PURPOSE: Provide only actions explicitly supported by documented safety or troubleshooting guidance.
+IMPORTANT: A possible cause is not automatically an action. Do not recommend an action unless a retrieved rule supports it. Machine manuals, approved factory procedures, resin supplier processing data, and site safety rules override this PoC document.
+
+ACTION A-01 — Safety: guard or interlock problem
+Condition: Missing, bypassed, defeated, or inoperable guard/interlock, or a worker can reach a danger zone while the machine can move.
+Recommended action: Do not bypass the safeguard. Stop unsafe operation and restore the required guarding/interlock before normal operation.
+Evidence basis: OSHA injection-molding machine-guarding guidance.
+
+ACTION A-02 — Safety: servicing, mold access, cleaning, unjamming, or maintenance with hazardous-energy exposure
+Condition: The task requires guard removal/bypass, body entry into a point of operation or danger zone, or exposure to unexpected startup or hazardous-energy release.
+Recommended action: Follow the site's lockout/tagout energy-control procedure before servicing or maintenance and verify isolation before work begins.
+Evidence basis: OSHA Control of Hazardous Energy guidance and injection-molding eTool.
+
+ACTION A-03 — Safety: hot plastic or hot-surface exposure
+Condition: Credible risk of burns from a heated barrel, hot surfaces, molten-plastic splatter, hot gases, or vapors.
+Recommended action: Use required guarding and appropriate heat-resistant PPE and eye/face protection according to the site procedure and machine/material guidance.
+Evidence basis: OSHA injection-molding safety guidance.
+
+ACTION A-04 — Safety: damaged high-pressure hose or fitting
+Condition: Hose or fitting is punctured, frayed, damaged, leaking, or otherwise capable of spraying hot oil or another substance at high pressure.
+Recommended action: Remove the machine from unsafe service as required by site procedure, inspect the affected hose/fitting, and replace damaged components according to manufacturer guidance before return to normal operation.
+Evidence basis: OSHA injection-molding safety guidance.
+
+ACTION A-05 — Short shot or incomplete fill: insufficient injection pressure
+Condition: Short shot/incomplete fill is present and insufficient injection pressure is supported as the cause.
+Recommended action: Increase injection pressure within the machine, mold, and material supplier's approved process window.
+Evidence basis: Avient troubleshooting guidance.
+
+ACTION A-06 — Short shot or incomplete fill: insufficient shot size
+Condition: Short shot/incomplete fill is present and shot size is insufficient.
+Recommended action: Increase shot size within approved machine/process limits.
+Evidence basis: Avient and Solvay troubleshooting guidance.
+
+ACTION A-07 — Short shot or incomplete fill: poor venting
+Condition: Short shot is associated with blocked or insufficient venting.
+Recommended action: Clean, improve, or appropriately deepen/add vents according to tool-design and maintenance requirements.
+Evidence basis: Avient and Solvay troubleshooting guidance.
+
+ACTION A-08 — Short shot or incomplete fill: melt too cold or injection too slow
+Condition: The documented process window confirms melt temperature is too low, or troubleshooting evidence indicates injection speed is too low.
+Recommended action: Adjust melt temperature or injection speed toward the approved material/process window.
+Safety limit: Do not raise temperature beyond the resin supplier's recommended process range.
+
+ACTION A-09 — Flash: excessive injection pressure or speed
+Condition: Flash is present and excessive injection pressure or injection speed is supported.
+Recommended action: Reduce injection pressure/time or injection speed as appropriate within the approved process window.
+Evidence basis: Avient and RTP troubleshooting guidance.
+
+ACTION A-10 — Flash: clamp or mold issue
+Condition: Flash is associated with inadequate clamp pressure/capacity, poor mold fit, dirt at the parting line, or mold damage/misalignment.
+Recommended action: Check clamp pressure/capacity and inspect the mold parting line, fit, alignment, and condition. Correct the identified mold/clamp issue before continuing production.
+Evidence basis: Avient and Solvay troubleshooting guidance.
+
+ACTION A-11 — Burn marks: venting-related
+Condition: Burn marks are associated with clogged vents, poor venting, trapped gas, or dieseling.
+Recommended action: Clean and improve the affected venting system according to the mold maintenance procedure.
+Evidence basis: Avient and Solvay troubleshooting guidance.
+
+ACTION A-12 — Burn marks: fill rate too fast
+Condition: The applicable material/process guide supports excessive fill rate as the cause.
+Recommended action: Reduce injection/fill speed within the approved process window.
+Evidence basis: Solvay troubleshooting guidance.
+
+ACTION A-13 — Voids or sinks: inadequate packing or material
+Condition: Voids/sinks are associated with inadequate material supply, pack/hold pressure, or pack/hold time.
+Recommended action: Verify cushion and shot size, then adjust pack/hold pressure or time within approved process limits. Consider gate/runner adequacy when documentation supports it.
+Evidence basis: Avient and Solvay troubleshooting guidance.
+
+ACTION A-14 — Moisture-related defect
+Condition: Splay, streaking, brittle behavior, voids, or another documented defect is associated with wet material.
+Recommended action: Verify the resin drying procedure and dry the material according to the resin supplier's specified drying conditions.
+Safety/quality limit: Do not invent drying temperature or time.
+
+ACTION A-15 — Material degradation or abnormal odor/color
+Condition: Off-color part, abnormal odor, or degradation is supported.
+Recommended action: Check for contamination, reduce process temperature toward the approved range if excessive, reduce residence time, review regrind level, and purge the machine when supported by the material guide.
+Evidence basis: Avient troubleshooting guidance.
+
+ACTION A-16 — Progressively shorter shots
+Condition: Shots become progressively shorter and the documented cause is excessive residence time or excessive barrel temperature.
+Recommended action: Purge the machine, reduce excessive residence time/cycle exposure, and reduce barrel temperature toward the approved material range.
+Evidence basis: Solvay Torlon PAI troubleshooting guidance.
+
+ACTION A-17 — Part sticking or part too soft at ejection
+Condition: Part sticks during ejection or ejector marks indicate the part is too soft.
+Recommended action: Increase mold-closed/cooling time or reduce mold/process temperature when supported by the approved material/process window. Also inspect ejection force, ejector design, and draft if the problem persists.
+Evidence basis: Avient troubleshooting guidance.
+
+ACTION A-18 — Cycle too short / insufficient cooling
+Condition: Documentation or the report establishes that the cycle is too short and the part is insufficiently cooled.
+Recommended action: Increase mold-closed/cooling time until the part is sufficiently rigid for acceptable ejection, using material- and part-specific process requirements.
+Evidence basis: Solvay and Avient processing guidance.
+
+ACTION A-19 — Unexpectedly long cycle time due to cooling inefficiency
+Condition: Cycle time is longer than the validated baseline and cooling is suspected.
+Recommended action: Check cooling-system performance and inspect for inadequate coolant flow, cooling-design limitations, corrosion, or scale buildup in cooling channels. Restore cooling performance according to mold-maintenance procedures.
+Evidence basis: BASF technical information on injection-molding cooling times.
+
+ACTION A-20 — Non-uniform color
+Condition: Non-uniform color is associated with poor mixing/dispersion.
+Recommended action: Check barrel temperatures, back pressure, and screw rpm against the approved process setup and inspect material/regrind for contamination.
+Evidence basis: Avient troubleshooting guidance.
+
+ACTION A-21 — Dimensional out-of-specification parts
+Condition: Dimensions are out of specification and shrinkage control is suspected.
+Recommended action: Check hold pressure, melt temperature, mold temperature, and cushion against the validated setup/process window before making controlled adjustments.
+Evidence basis: Avient quality-control troubleshooting guidance.
+
+ACTION A-22 — No documented action
+Condition: Retrieved documentation identifies a possible cause but does not explicitly specify a corrective action for the reported condition.
+Recommended action: Return null. State that the available production documentation does not contain enough information to provide a recommended action.
+Do not transform a possible cause into an invented maintenance instruction.
+
+ACTION A-23 — Raw numeric values without documented limits
+Condition: The report provides temperature, pressure, cycle time, or downtime numbers but the knowledge base does not define the correct parameter range/limit for the applicable machine, material, mold, or process.
+Recommended action: Do not recommend a process adjustment from the number alone. Return that the value cannot be validated against the available documentation and request the applicable process window or machine/material limit.
+
+ACTION A-24 — Conflicting operator comment and recorded data
+Condition: An operator comment directly contradicts a documented limit or a recorded parameter that has a validated reference range.
+Recommended action: Do not produce a process adjustment until the discrepancy is resolved. Flag the conflicting field and request verification of the measurement/comment.
+Constraint: Do not call a comment wrong unless the contradiction is supported by documented data.
+
+ACTION A-25 — Use a systematic troubleshooting approach
+Condition: Multiple process adjustments are plausible and there is no safety emergency.
+Recommended action: Compare the report against the validated setup/process window and use controlled troubleshooting changes rather than changing many variables at once.
+Evidence basis: Avient recommends a systematic troubleshooting approach and restoring a previously successful process to its proper balance.
+
+ACTION A-26 — Material-specific limits override generic troubleshooting
+Condition: A resin supplier data sheet or approved material process window is available.
+Recommended action: Keep temperature, pressure, drying, and timing adjustments inside the applicable supplier/factory limits.
+
+SOURCE NOTE — OSHA
+Occupational Safety and Health Administration, Machine Guarding eTool — Plastics Machinery — Horizontal Injection Molding Machines, plus Control of Hazardous Energy / Lockout-Tagout guidance.
+
+SOURCE NOTE — Avient
+Avient, Injection Molding: Troubleshooting, 2025; Injection Molding: Mold Processing; Injection Molding: Mold Design.
+
+SOURCE NOTE — Solvay
+Solvay Specialty Polymers, Torlon PAI Quick Molding Guide, troubleshooting table.
+
+SOURCE NOTE — BASF
+BASF, Estimating Cooling Times in Injection Molding, technical information; BASF Injection Molding Cycle Time Estimator.
+
+SOURCE NOTE — LANXESS
+LANXESS, Durethan PA Injection Molding Guide, troubleshooting section.
+
+SOURCE NOTE — RTP Company
+RTP Company, Injection Molding Troubleshooting Guide.
